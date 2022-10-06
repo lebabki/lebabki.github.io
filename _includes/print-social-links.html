@@ -2,6 +2,11 @@
 {% if site.resume_print_social_links %}
 <ul>
 
+  <!-- Mail link -->
+  {% if site.resume_social_links.resume_mail_url %}
+  <li><strong>Mail</strong>: {{ site.resume_social_links.resume_mail_url }}</li>
+  {% endif %}
+
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
   <li><strong>Github</strong>: {{ site.resume_social_links.resume_github_url }}</li>
@@ -25,6 +30,11 @@
   <!-- LinkedIn link -->
   {% if site.resume_social_links.resume_linkedin_url %}
   <li><strong>LinkedIn</strong>: {{ site.resume_social_links.resume_linkedin_url }}</li>
+  {% endif %}
+
+  <!-- Telegram link -->
+  {% if site.resume_social_links.resume_telegram_url %}
+  <li><strong>Telegram</strong>: {{ site.resume_social_links.resume_telegram_url }}</li>
   {% endif %}
 
   <!-- Instagram link -->

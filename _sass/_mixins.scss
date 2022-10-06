@@ -74,6 +74,12 @@
   font-weight: 800;
 }
 
+@mixin sans_italic {
+  @include sans;
+  font-weight: 400;
+  font-style: italic;
+}
+
 @mixin serif {
   font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
 }

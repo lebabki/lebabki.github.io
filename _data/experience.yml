@@ -1,19 +1,155 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: RSHB-Intech, Novosibirsk
+  company_details: Subsidiary fintech company of one of TOP5 banks in Russia
+  position: Lead Infrastructure Engineer
+  duration: 07/2020 &mdash; Present
+  summary: >
+    <p>
+    I am currently honored to be part of the team consisting of a bunch of high level software and infrastructure engineers.
+    </p>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+    <p>
+    Together we're designing, building and evolving aPaaS private cloud for our users (mostly also developers) that can focus on writing business logic of their applications and can rely on the platform for the rest infrastructural and integration things and standards.
+    </p>
 
+    <p>
+    The platform provides a full cycle of software production from idea to deployment. It includes systems for managing tasks, managing repositories, building and storing artifacts, checking source code for quality and vulnerabilities, deployment and monitoring. In addition, a software integration layer is built on the platform.
+    </p>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+    <p>
+    We’ve already onboarded dozens of teams to the platform. It’s more than a thousand active users for now. And this number is growing.
+    </p>
+
+    <div class="tabset">
+      <!-- Tab 1 -->
+      <input type="radio" name="tabset" id="tab1" aria-controls="short" checked>
+      <label for="tab1">Short</label>
+
+      <!-- Tab 2 -->
+      <input type="radio" name="tabset" id="tab2" aria-controls="full">
+      <label for="tab2">Overall list of achievements and tasks  <i class="fa-solid fa-arrow-turn-down"></i></label>
+
+      <div class="tab-panels">
+        <section id="short" class="tab-panel">
+          <ul class="resume-item-list">
+            <li>Design platform architecture and elabore new features. Choose technology stack and provide RnD expertise.</li>
+
+            <li>Provision and manage dozens of kubernetes clusters and all related cluster infrastructural services. Implement flexible configuration management layout and manage hundreds of VMs with it that used to run clusters.</li>
+
+            <li>Design, provision and evolve paltform network stack, develop network features to be used as platform functionality, for example LBaaS.</li>
+
+            <li>Envolved in development of core platform services (k8s operators) using Go and operator-framework. Also develop a bunch of services to enrich functionality of infrastructure service and adding extra flexibility in platform, for example mutation admission webhook and transparent auth proxy.</li>
+
+            <li>Design and develop CI/CD as a Service platform functionality that provide self-service for our users. Optimize build process with efficient distributed layer caching.</li>
+
+            <li>Provision and support dozens of infrastructure and devops services that provide auth, observability and CI/CD functionality for platform. Many of these services are avaliable for our users through platform UI and API.</li>
+
+            <li>Envolved in tuning, troubleshooting and incident investigation process.</li>
+
+            <li>Participate in milestones elaboration and tasks decomposition process. Envolved in organization and hiring process (as technical interviewer) of platform support team. Provide support team training by creating several bootcamps.</li>
+          </ul>
+        </section>
+        <section id="full" class="tab-panel">
+          <ul class="resume-item-list">
+            <li>Design platform architecture and elabore new features. Choose technology stack and provide RnD expertise.</li>
+
+            <li>Provision from scratch and manage many kubernetes clusters (which are used as plarform core base) including all related infrastructural services like CNI/CSI engines, external DNS, PKI and others.</li>
+
+            <li>Prepare and manage hundreds of self-hosted Linux virtual instances for running kubernetes clusters. Flexible configuration management (ansible) layout was created for this case, that allows testing, versioning and reuse configuraion management code components. Tune OS kernel and service parameters for platform needs.</li>
+
+            <li>Design, develop and deploy L3 LBaaS platform functionality based on Calico/BGP and Calico CNI plugin with usage of external route reflectors and peers and custom route prefix filtering feature.</li>
+
+            <li>Envolved in development of core platform services (k8s operators) using Go and operator-framework.</li>
+
+            <li>Design and develop CI/CD as a Service platform functionality based on Gitlab CI, buildkit and helmfile. Users can choose CI/CD-"flow" according to their technology stack (programming language/framework) and rely on platform without doing any configuration. Build process highly optimized for using "cross-pipeline" "per-project" distributed layer caching that dramatically speedup pipelines execution time and overall resource usage especially during peak times.</li>
+
+            <li>Develop bunch of auxiliary CI/CD services with Go for extra flexibility, for example, wrapper over buildkit and transparent auth proxy with TLS interception for authentication in multiple infrastructure components (like Gitlab and Sonatype Nexus) without the need for configuration of various language build tools.</li>
+
+            <li>Develop Dockerfile generator for using as part of CI/CD as a Service functionality. Provide standartized OCI-images to be used in generated Dockerfiles transparently to the users. Provide standartized helm-charts to be used in platform deploy functionality.</li>
+
+            <li>Develop mutation admission webhooks with Go and kubebuilder to enrich functionality of kubernetes executor of Gitlab CI runners.</li>
+
+            <li>Design and develop (currently in progress) new deploy functionality in GitOps way based on custom flux2-controllers and platform k8s-operators.</li>
+
+            <li>Take part in the development of Gitlab API extension service with request caching feature.</li>
+
+            <li>Tune and troubleshoot kubernetes control-plane, such as apiserver, etcd, kubelet, kube-proxy and CNI plugins.</li>
+
+            <li>Provide Istio service mesh configuration and intergration with platform logic. Use envoy filters at moderate level.</li>
+
+            <li>Manage infrastructure to provide code and artifact storage, authentication/authorization, secrets management and telemetry (logs, metrics, traces) out-of-the-box for platform users. That infrastructure consists of dozens of self-hosted infrastructure services that used as part of platform components and whose APIs used in platform logic: Gitlab, Keycloak, Minio, Hashicorp Vault, Sonarqube, Sonatype Nexus, Prometheus stack, VictoriaMetrics, Opensearch, Kibana, PostgreSQL (Crunchy Data) and others. Many of these services are avaliable for our users through platform UI and API.</li>
+
+            <li>Support self-hosted DNS servers (PowerDNS + Dnsdist + clustered MySQL) with a private zone.</li>
+
+            <li>Investigate incidents and provide disaster recovery of critical platform components.</li>
+
+            <li>Participate in milestones elaboration and tasks decomposition process.</li>
+
+            <li>Participate in organization and hiring process (as technical interviewer) of platform support team.</li>
+
+            <li>Provide support team training by creating several bootcamps.</li>
+          </ul>
+          </details>
+        </section>
+      </div>
+    </div>
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+- company: Center of Financial Technologies, Novosibirsk
+  company_details: One of the five largest software developing companies operating on the CIS market
+  position: Senior Infrastructure/DevOps Engineer
+  duration: 04/2018 &mdash; 07/2020
+  summary: >
+    <p>
+    Designing and implementing a pilot of a hybrid cloud platform for hosting public and
+    private services using SaaS/PaaS models, as well as providing platform resources using the
+    IaaS model. Despite the pilot status, several real business applications were successfully
+    launched on the platform, and worked within the SLA.
+    </p>
+
+    <p>
+    Deploy and operate Opennebula platform using Infrastructure as Code methodology. Design and configure small SDN based on Opennebula VXLAN networks and gateways. Integrate Opennebula platform with distributed storage.
+    </p>
+
+    <p>
+    Deploy and operate multiple kubernetes clusters and related infrastructural services.
+    </p>
+
+    <p>
+    Develop build and deploy configuration for data-streaming business application with dozens of services and infrastructural dependencies such as Apache Storm, ArangoDB, Kafka, Clickhouse. Troubleshoot and manage application and infrastructural incidents. Manage CI/CD infrastructure.
+    </p>
+
+    <p>
+    Implement a pilot of distributed storage using Linstor and DRBDv9. Configure and manage writeback caching storage layer with bcache.
+    </p>
+
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+- company: Center of Financial Technologies, Novosibirsk
+  company_details: One of the five largest software developing companies operating on the CIS market
+  position: Senior UNIX administrator
+  duration: 12/2013 &mdash; 04/2018
+  summary: >
+    <p>
+    Provide technical expertise for operation systems, hardware and storage systems administration in data processing department.
+    </p>
+
+    <p>
+    Bootstrap, manage, troubleshoot and support hundreds of bare metal servers with Linux, Solaris, AIX and HP-UX on a board, and hundreds of virtual instances with Linux.
+    </p>
+
+    <p>
+    Tune operating systems for OLTP database workload pattern.
+    </p>
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+- company: Bank of Pushkino Ltd., Novosibirsk
+  company_details: Banking and financial services company
+  position: UNIX administrator
+  duration: 11/2011 &mdash; 12/2013
+  summary: >
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+- company: Aurora LLC, Novosibirsk
+  company_details: Systems integrator
+  position: UNIX administrator
+  duration: 08/2010 &mdash; 11/2011
