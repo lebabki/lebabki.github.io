@@ -1,12 +1,33 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: TECH SKILLS
+  description: |
+    <ul class="tags">
+      <li><a href="#" class="tag">Kubernetes</a></li>
+      <li><a href="#" class="tag">Docker</a></li>
+      <li><a href="#" class="tag">Containerd</a></li>
+      <li><a href="#" class="tag">Linux</a></li>
+      <li><a href="#" class="tag">CentOS FCOS RHEL Debian Alpine</a></li>
+      <li><a href="#" class="tag">Ansible</a></li>
+      <li><a href="#" class="tag">Gitlab CI</a></li>
+      <li><a href="#" class="tag">Buildkit</a></li>
+      <li><a href="#" class="tag">Helm</a></li>
+      <li><a href="#" class="tag">PowerDNS</a></li>
+      <li><a href="#" class="tag">Nginx</a></li>
+      <li><a href="#" class="tag">Envoy</a></li>
+      <li><a href="#" class="tag">Istio</a></li>
+      <li><a href="#" class="tag">Opensearch</a></li>
+      <li><a href="#" class="tag">Kafka</a></li>
+      <li><a href="#" class="tag">Calico</a></li>
+      <li><a href="#" class="tag">BGP</a></li>
+      <li><a href="#" class="tag">Prometheus stack</a></li>
+      <li><a href="#" class="tag">Keycloak</a></li>
+      <li><a href="#" class="tag">Golang</a></li>
+      <li><a href="#" class="tag">Operator SDK</a></li>
+      <li><a href="#" class="tag">Bash</a></li>
+    </ul>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: QUALITIES
+  description: |
+    <ul class="resume-item-list">
+      <li>Critical thinker</li>
+      <li>Never-stopping student</li>
+    </ul>

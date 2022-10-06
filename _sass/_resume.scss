@@ -320,3 +320,38 @@
   padding: 10px 0;
   border-top: 1px solid #ccc;
 }
+
+.tags {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.tags li {
+	float: left;
+}
+
+.tag {
+	background: #333;
+	border-radius: 10px 10px 10px 10px;
+	color: #fff;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 10px 0 10px;
+	position: relative;
+	margin: 0 5px 5px 0;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+  font-size: 0.8rem;
+  font-family: monospace;
+}
+
+.tag:hover {
+	background-color: rgb(143, 143, 143);
+}
+
+.tag:hover::after {
+	border-left-color: rgb(143, 143, 143);
+}
