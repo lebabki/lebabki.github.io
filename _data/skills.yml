@@ -29,4 +29,12 @@
       <li><a href="#" class="tag">Operator SDK</a></li>
       <li><a href="#" class="tag">kubebuilder</a></li>
       <li><a href="#" class="tag">bash</a></li>
+      <li><a href="#" class="tag">Opennebula</a></li>
+      <li><a href="#" class="tag">Openshift</a></li>
+      <li><a href="#" class="tag">Apache Storm</a></li>
+      <li><a href="#" class="tag">Kafka</a></li>
+      <li><a href="#" class="tag">PostgreSQL</a></li>
+      <li><a href="#" class="tag">Linstor</a></li>
+      <li><a href="#" class="tag">DRBD</a></li>
+      <li><a href="#" class="tag">Bcache</a></li>
     </ul>

@@ -218,6 +218,26 @@
       <!-- end Links -->
       {% endif %}
 
+      {% if site.resume_section_languages %}
+      <!-- begin Languages -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Languages</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for lang in site.data.languages %}
+            <li>{{ lang }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Languages -->
+      {% endif %}
+
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
