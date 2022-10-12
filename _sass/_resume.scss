@@ -175,6 +175,17 @@
     }
   }
 
+  .resume-item-details-spaced {
+    font-size: 1.125rem;
+    margin: 0 0 .75rem;
+    margin-top: 1rem;
+    line-height: 1;
+
+    &.award-title {
+      font-size: 1rem;
+    }
+  }
+
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,

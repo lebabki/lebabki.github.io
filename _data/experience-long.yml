@@ -30,19 +30,41 @@
     <ul class="resume-item-list">
       <li>Designed platform architecture and elaborated new features. Chose technology stack and provided RnD expertise.</li>
 
-      <li>Provisioned and managed dozens of kubernetes clusters and all related cluster infrastructural services. Implemented flexible configuration management layout and managed hundreds of VMs with it that used to run clusters.</li>
+      <li>Provisioned from scratch and managed many kubernetes clusters (which are used as platform basis) including all related infrastructural services like CNI/CSI engines, external DNS, PKI and others.</li>
 
-      <li>Designed, provisioned and evolved platform network stack, developed network features to be used as platform functionality, for example LBaaS.</li>
+      <li>Prepared and managed hundreds of self-hosted Linux virtual instances for running kubernetes clusters. Flexible configuration management layout was created using Ansible. Layout allows testing, versioning and reuse configuration management code components. Tuned OS kernel and service parameters for platform needs.</li>
 
-      <li>Evolved into development of core platform services (k8s operators) using Go and operator SDK. Also developed a bunch of services to enrich functionality of infrastructure services and to add extra flexibility in platform, for example mutation admission webhook and transparent auth proxy.</li>
+      <li>Designed, developed and deployed L3 LBaaS platform feature based on Calico/BGP and Calico CNI plugin with usage of external route reflectors and peers and custom route prefix filtering feature.</li>
 
-      <li>Designed and developed CI/CD as a Service platform functionality that provides self-service for our users. Optimized build process with efficient distributed layer caching.</li>
+      <li>Evolved in development of core platform services (k8s operators) using Go and operator SDK.</li>
 
-      <li>Provisioned and supported dozens of infrastructure and devops services that provide auth, observability and CI/CD functionality for platform. Many of these services are available for our users through platform UI and API.</li>
+      <li>Designed and developed CI/CD as a Service to be used as platform component and based on Gitlab CI, buildkit and helmfile. Users can choose CI/CD-"flow" according to their technology stack (programming language/framework) and rely on platform without doing any configuration. Build process highly optimized for using "cross-pipeline" "per-project" distributed layer caching that dramatically speedup pipelines execution time and overall resource usage especially during peak times.</li>
 
-      <li>Evolved into tuning, troubleshooting and incident investigation process.</li>
+      <li>Developed a bunch of auxiliary CI/CD services with Go for extra flexibility, for example, wrapper over buildkit and transparent auth proxy with TLS interception for authentication in multiple infrastructure components (like Gitlab and Sonatype Nexus) without the need for configuration of various language build tools.</li>
 
-      <li>Participated in milestones elaboration and tasks decomposition process. Evolved into hiring and organizing process of platform support team (as technical interviewer). Provided trainings for support team by creating several bootcamps.</li>
+      <li>Developed Dockerfile generator for using as part of CI/CD as a Service. Provided standardized OCI-images to be used in generated Dockerfiles transparently to the users. Provided standardized helm-charts to be used in platform deploy functionality.</li>
+
+      <li>Developed mutation admission webhooks with Go and kubebuilder to enrich functionality of kubernetes executor of Gitlab CI runners.</li>
+
+      <li>Designing and developing new deploy functionality in GitOps way based on custom flux2-controllers and platform k8s-operators. Still in progress.</li>
+
+      <li>Took part in the development of Gitlab API extension service with request caching feature.</li>
+
+      <li>Tuned and troubleshooted kubernetes control-plane, such as apiserver, etcd, kubelet, kube-proxy and CNI plugins.</li>
+
+      <li>Provided Istio service mesh configuration and integrated it with platform logic.</li>
+
+      <li>Managed an infrastructure to provide code and artifact storage, authentication/authorization, secrets management and telemetry (logs, metrics, traces) out-of-the-box for platform users. That infrastructure consists of dozens of self-hosted infrastructure services that used as part of platform components and whose APIs used in platform logic: Gitlab, Keycloak, Minio, Hashicorp Vault, Sonarqube, Sonatype Nexus, Prometheus stack, VictoriaMetrics, Opensearch, Kibana, PostgreSQL (Crunchy Data) and others. Many of these services are available for our users through platform UI and API.</li>
+
+      <li>Supported self-hosted DNS servers (PowerDNS + Dnsdist + clustered MySQL) with a private zone.</li>
+
+      <li>Investigated incidents and provided disaster recovery of critical platform components.</li>
+
+      <li>Participated in milestones elaboration and tasks decomposition process.</li>
+
+      <li>Participated in organization and hiring process (as technical interviewer) of platform support team.</li>
+
+      <li>Provided trainings of support team by creating several bootcamps.</li>
     </ul>
 
     <hr style="width:100%;text-align:left;margin-left:0">

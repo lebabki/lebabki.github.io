@@ -5,7 +5,11 @@
       <li><a href="#" class="tag">Docker</a></li>
       <li><a href="#" class="tag">Containerd</a></li>
       <li><a href="#" class="tag">Linux</a></li>
-      <li><a href="#" class="tag">CentOS FCOS RHEL Debian Alpine</a></li>
+      <li><a href="#" class="tag">CentOS</a></li>
+      <li><a href="#" class="tag">FCOS</a></li>
+      <li><a href="#" class="tag">RHEL</a></li>
+      <li><a href="#" class="tag">Debian</a></li>
+      <li><a href="#" class="tag">Alpine</a></li>
       <li><a href="#" class="tag">Ansible</a></li>
       <li><a href="#" class="tag">Gitlab CI</a></li>
       <li><a href="#" class="tag">Buildkit</a></li>
@@ -20,14 +24,9 @@
       <li><a href="#" class="tag">BGP</a></li>
       <li><a href="#" class="tag">Prometheus stack</a></li>
       <li><a href="#" class="tag">Keycloak</a></li>
+      <li><a href="#" class="tag">Sonatype Nexus</a></li>
       <li><a href="#" class="tag">Golang</a></li>
       <li><a href="#" class="tag">Operator SDK</a></li>
-      <li><a href="#" class="tag">Bash</a></li>
-    </ul>
-
-- skill: QUALITIES
-  description: |
-    <ul class="resume-item-list">
-      <li>Critical thinker</li>
-      <li>Never-stopping student</li>
+      <li><a href="#" class="tag">kubebuilder</a></li>
+      <li><a href="#" class="tag">bash</a></li>
     </ul>

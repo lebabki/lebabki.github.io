@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Leonid Babkin"
-resume_title:                   "Senior/Lead Infrastructure/Devops Engineer"
+resume_title:                   "Lead Infrastructure Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "leonid.a.babkin@gmail.com"
@@ -25,11 +25,11 @@ display_header_contact_info:    "false"
 
 resume_header_intro: >
   <p>
-  Infrastructure engineer and developer with 12 years experience. Know how to setup robust infrastructure from bare metal to application level.
+  Infrastructure engineer and developer with 12 years experience. Know how to set up robust infrastructure from bare metal to application level.
   </p>
 
   <p>
-  I have some advanced skills and knowledge in modern infrastructure tools with solid background in system administration and moderate background in infrastructure development.
+  I have advanced skills and knowledge in modern infrastructure tools, with solid background in system administration and moderate background in infrastructure development.
   </p>
 
 resume_show_buttons: "no"
