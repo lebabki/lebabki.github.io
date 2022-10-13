@@ -173,6 +173,13 @@
     &.award-title {
       font-size: 1rem;
     }
+
+    // Disable phone number linking in mobile safari
+    // for 'job.duration' content
+    pointer-events: none;
+    > span {
+      text-decoration:none; color:inherit;
+    }
   }
 
   .resume-item-details-spaced {

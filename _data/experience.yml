@@ -1,18 +1,18 @@
 - company: RSHB-Intech, Novosibirsk
   company_details: Subsidiary fintech company of one of TOP5 banks in Russia
   position: Lead Infrastructure Engineer
-  duration: 07/2020 &mdash; Present
+  duration: 07/2020 &zwj;&mdash; Present
   summary: >
     <p>
-    I am currently honored to be a part of the team consisting of high level software and infrastructure engineers.
+    I am currently honored to be a part of the team consisting of highly-skilled software and infrastructure engineers.
     </p>
 
     <p>
-    Together we're designing, building and evolving aPaaS private cloud for our users (mostly also developers) who can focus on writing business logic of their applications and can rely on the platform for the rest infrastructural and integration things and standards.
+    Together, we design and build aPaaS private cloud for developers, so they can focus on writing business logic of their applications and can rely on the platform for infrastructure and integration layers and development standards.
     </p>
 
     <p>
-    The platform provides a full cycle of software production from idea to deployment. It includes systems for managing tasks, managing repositories, building and storing artifacts, checking source code for quality and vulnerabilities, deployment and monitoring. In addition, a software integration layer is built on the platform.
+    The platform provides a full cycle of software development from idea to deployment. It includes systems for managing tasks and repositories, building and storing artifacts, checking source code for quality and vulnerabilities, deployment and monitoring. In addition, a software integration layer is built on the platform.
     </p>
 
     <p>
@@ -20,7 +20,7 @@
     </p>
 
     <p>
-    We’ve already onboarded dozens of teams to the platform. It’s more than a thousand active users for now. And this number is growing.
+    The platform currently serves to more than 1K developers.
     </p>
 
     <p class="resume-item-details-spaced">
@@ -30,27 +30,27 @@
     <ul class="resume-item-list">
       <li>Designed platform architecture and elaborated new features. Chose technology stack and provided RnD expertise.</li>
 
-      <li>Provisioned and managed dozens of kubernetes clusters and all related cluster infrastructural services. Implemented flexible configuration management layout and managed hundreds of VMs with it that used to run clusters.</li>
+      <li>Provisioned and managed dozens of kubernetes clusters and all related cluster infrastructural services. Implemented flexible configuration management layout for managing hundreds of underlying VMs in Kubernetes clusters.</li>
 
       <li>Designed, provisioned and evolved platform network stack, developed network features to be used as platform functionality, for example LBaaS.</li>
 
-      <li>Evolved into development of core platform services (k8s operators) using Go and operator SDK. Also developed a bunch of services to enrich functionality of infrastructure services and to add extra flexibility in platform, for example mutation admission webhook and transparent auth proxy.</li>
+      <li>Involved into development of core platform services (Kubernetes operators) using Go and operator SDK. Also developed a bunch of services to enrich functionality of infrastructure services and to add extra flexibility to the platform, for example mutation admission webhook and transparent auth proxy.</li>
 
-      <li>Designed and developed CI/CD as a Service platform functionality that provides self-service for our users. Optimized build process with efficient distributed layer caching.</li>
+      <li>Designed and developed CI/CD as a Service platform functionality that provides self-service for our users. Optimized build process with efficient distributed OCI-image layer caching.</li>
 
-      <li>Provisioned and supported dozens of infrastructure and devops services that provide auth, observability and CI/CD functionality for platform. Many of these services are available for our users through platform UI and API.</li>
+      <li>Provisioned and supported dozens of infrastructure and devops services that provide auth, observability and CI/CD functionality for platform. Many of these services are available to our users through platform UI and API.</li>
 
-      <li>Evolved into tuning, troubleshooting and incident investigation process.</li>
+      <li>Involved into tuning, troubleshooting and incident investigation process.</li>
 
-      <li>Participated in milestones elaboration and tasks decomposition process. Evolved into hiring and organizing process of platform support team (as technical interviewer). Provided trainings for support team by creating several bootcamps.</li>
+      <li>Participated in milestones elaboration and tasks decomposition process. Evolved into hiring and organizing process of platform support team (as a technical interviewer). Provided trainings for support team by creating several bootcamps.</li>
     </ul>
 
     <hr style="width:100%;text-align:left;margin-left:0">
 
 - company: Center of Financial Technologies, Novosibirsk
-  company_details: One of the five largest software developing companies operating on the CIS market
+  company_details: One of the five largest software development companies operating on the CIS market
   position: Senior Infrastructure/DevOps Engineer
-  duration: 04/2018 &mdash; 07/2020
+  duration: 04/2018 &zwj;&mdash; 07/2020
   summary: >
     <p>
     Designed and implemented a pilot of a hybrid cloud platform for hosting public and private services using SaaS/PaaS models, as well as providing platform resources using the IaaS model. Despite the pilot status, several real business applications were successfully launched on the platform, and worked within the SLA.
@@ -75,9 +75,9 @@
     <hr style="width:100%;text-align:left;margin-left:0">
 
 - company: Center of Financial Technologies, Novosibirsk
-  company_details: One of the five largest software developing companies operating on the CIS market
+  company_details: One of the five largest software development companies operating on the CIS market
   position: Senior UNIX administrator
-  duration: 12/2013 &mdash; 04/2018
+  duration: 12/2013 &zwj;&mdash; 04/2018
   summary: >
     <p>
     Provided technical expertise for operation systems, hardware and storage systems administration in data processing department.
@@ -96,11 +96,11 @@
 - company: Bank of Pushkino Ltd., Novosibirsk
   company_details: Banking and financial services company
   position: UNIX administrator
-  duration: 11/2011 &mdash; 12/2013
+  duration: 11/2011 &zwj;&mdash; 12/2013
   summary: >
     <hr style="width:100%;text-align:left;margin-left:0">
 
 - company: Aurora LLC, Novosibirsk
   company_details: Systems integrator
   position: UNIX administrator
-  duration: 08/2010 &mdash; 11/2011
+  duration: 08/2010 &zwj;&mdash; 11/2011
